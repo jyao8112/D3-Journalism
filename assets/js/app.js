@@ -142,10 +142,10 @@ d3.csv("../StarterCode/assets/data/data.csv", function(err, healthData) {
     .attr("x", 0 - (height / 2))
     .attr("dy", "1em")
     .attr("class", "axisText")
-    .text("Lacks Healtcare(%)");
+    .text("In Poverty (%)");
 
   chartGroup.append("text")
     .attr("transform", `translate(${width / 2}, ${height + margin.top + 30})`)
     .attr("class", "axisText")
-    .text("In Poverty (%)");
+    .text("Lacks Healtcare(%)");
 })
